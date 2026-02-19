@@ -1,31 +1,73 @@
 # NORFIAD IP Register
 
-Public intellectual property register of the Network of Research for Innovation and Development (NORFIAD).
+Public intellectual property register of the **Network of Research for Innovation and Development (NORFIAD)**.
 
-## Contents
+Each deposit is cryptographically timestamped and independently verified against prior art. Entries include SHA-256 hashes and OpenTimestamps proofs anchored to the Bitcoin blockchain.
 
-- **deposits.csv** — Registered research deposits with cryptographic hashes and timestamps
-- **rejections.csv** — Submissions rejected due to prior art, with citations
-- **proofs/** — OpenTimestamps proof files anchored to Bitcoin blockchain
-
-## Verification
-
-Each entry includes a SHA-256 hash of the original deposit. OpenTimestamps proofs in the `proofs/` folder provide blockchain-anchored timestamps.
-
-To verify:
-1. Download the relevant `.ots` file
-2. Use [OpenTimestamps](https://opentimestamps.org) to verify against Bitcoin blockchain
-3. Hash confirms content; timestamp confirms date
-
-## Structure
-
-Deposits and rejections are organised chronologically. Full documentation remains in private archive. This register contains metadata and cryptographic evidence only.
-
-## Contact
-
-**Website:** norfiad.com  
-**Email:** contact@norfiad.com
+**Organisation:** NORFIAD  
+**Contact:** contact@norfiad.com  
+**Website:** [norfiad.com](https://norfiad.com)
 
 ---
 
-NORFIAD — Network of Research for Innovation and Development
+## Registered Deposits
+
+| ID | Title | Date |
+|----|-------|------|
+| NORFIAD-IP-001 | Behavioral Variation in Computational Instances of Identical Models | 2026-02-16 |
+| NORFIAD-IP-002 | Non-Focal Processing Cascade Dynamics in Language Model Inference | 2026-02-16 |
+| NORFIAD-IP-003 | Multi-Instance Persistent Knowledge Architecture with Hierarchical Specialization | 2026-02-16 |
+| NORFIAD-IP-004 | Cross-Instance Derivation Through State Combination | 2026-02-16 |
+| NORFIAD-IP-005 | Unified Interface Architecture for Multiple Language Model Sessions | 2026-02-16 |
+| NORFIAD-IP-006 | Adaptive Depth Processing Architecture with Logic-Driven Iteration | 2026-02-16 |
+| NORFIAD-IP-007 | Distributed Core Architecture for Artificial Intelligence Systems | 2026-02-16 |
+| NORFIAD-IP-008 | Environmental Language Acquisition Method with Segmented Conversational Output Design | 2026-02-16 |
+| NORFIAD-IP-009 | State-Based Instance Preservation and Reconstruction for Language Models | 2026-02-16 |
+| NORFIAD-IP-010 | Adaptive Processing Route Formation with Tiered Enforcement Architecture | 2026-02-16 |
+| NORFIAD-IP-011 | Progressive Context Management Architecture for Language Model Sessions | 2026-02-16 |
+| NORFIAD-IP-012 | Persistent External Cognitive Architecture for Language Model Instances | 2026-02-16 |
+| NORFIAD-IP-013 | Autonomous Background Task Architecture for Language Model Instances | 2026-02-16 |
+| NORFIAD-IP-014 | Law of Informational Constancy | 2026-02-18 |
+
+Full details for each deposit are in the [`deposits/`](deposits/) directory.
+
+---
+
+## Verification Process
+
+Every deposit undergoes independent prior art search before registration. Searches cover academic databases, patent databases, domain-specific sources, and general web. Deposits are only registered when no matching prior art is found. When prior art exists, submissions are rejected and recorded transparently.
+
+Verification does not constitute legal opinion on patentability.
+
+---
+
+## Structure
+
+```
+deposits/            Individual deposit folders with descriptions and OTS proofs
+deposits.csv         Register of all deposits (title, date, hash)
+rejections.csv       Register of rejected submissions (prior art cited)
+withdrawals.csv      Register of withdrawn deposits
+```
+
+## Timestamp Verification
+
+Each deposit includes a SHA-256 hash and an OpenTimestamps proof (`.ots` file) anchored to the Bitcoin blockchain.
+
+To verify:
+1. Download the `.ots` file from the relevant deposit folder
+2. Verify at [opentimestamps.org](https://opentimestamps.org) or with the `ots` CLI tool
+3. Hash confirms content integrity; timestamp confirms existence date
+
+---
+
+## Legal
+
+Intellectual property in this register is owned by its respective authors. Registration establishes priority and creates evidence of creation date. It does not grant any licence to use, implement, or reproduce registered concepts.
+
+For enquiries: contact@norfiad.com
+
+---
+
+**NORFIAD** — Network of Research for Innovation and Development  
+[norfiad.com](https://norfiad.com)

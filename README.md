@@ -28,6 +28,11 @@ Each deposit is cryptographically timestamped and independently verified against
 | NORFIAD-IP-012 | Persistent External Cognitive Architecture for Language Model Instances | 2026-02-16 |
 | NORFIAD-IP-013 | Autonomous Background Task Architecture for Language Model Instances | 2026-02-16 |
 | NORFIAD-IP-014 | Law of Informational Constancy | 2026-02-18 |
+| NORFIAD-IP-015 | The Two Types of Information | 2026-02-19 |
+| NORFIAD-IP-016 | Properties of Fixed Information | 2026-02-19 |
+| NORFIAD-IP-017 | Properties of Volatile Information | 2026-02-19 |
+| NORFIAD-IP-018 | Properties of Free Information | 2026-02-19 |
+| NORFIAD-IP-019 | Abstraction of Information | 2026-02-20 |
 
 Full details for each deposit are in the [`deposits/`](deposits/) directory.
 

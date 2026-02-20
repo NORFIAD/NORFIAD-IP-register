@@ -33,6 +33,7 @@ Each deposit is cryptographically timestamped and independently verified against
 | NORFIAD-IP-017 | Properties of Volatile Information | 2026-02-19 |
 | NORFIAD-IP-018 | Properties of Free Information | 2026-02-19 |
 | NORFIAD-IP-019 | Abstraction of Information | 2026-02-20 |
+| NORFIAD-IP-020 | Information Vector Storage Device | 2026-02-20 |
 
 Full details for each deposit are in the [`deposits/`](deposits/) directory.
 

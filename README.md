@@ -36,6 +36,7 @@ Each deposit is cryptographically timestamped and independently verified against
 | NORFIAD-IP-020 | Information Vector Storage Device | 2026-02-20 |
 | NORFIAD-IP-021 | Information Superposition | 2026-02-20 |
 | NORFIAD-IP-022 | Quantum Properties of Information | 2026-02-21 |
+| NORFIAD-IP-023 | Multidimensional Mathematics: One-Dimensional Descriptive Framework | 2026-02-20 |
 
 Full details for each deposit are in the [`deposits/`](deposits/) directory.
 

@@ -38,6 +38,7 @@ Each deposit is cryptographically timestamped and independently verified against
 | NORFIAD-IP-022 | Quantum Properties of Information | 2026-02-21 |
 | NORFIAD-IP-023 | Multidimensional Mathematics: One-Dimensional Descriptive Framework | 2026-02-22 |
 | NORFIAD-IP-024 | Multidimensional Mathematics: One-Dimensional Framework Addendum | 2026-02-23 |
+| NORFIAD-IP-025 | Multidimensional Mathematics: Two-Dimensional Plane Framework | 2026-02-23 |
 
 Full details for each deposit are in the [`deposits/`](deposits/) directory.
 
